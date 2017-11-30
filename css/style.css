@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: gray;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -21,19 +21,42 @@ body{
 	display: inline-block;
 	border-right: 2px solid black;
 }
+.aboutMe {
+	position: relative;
+	max-width: 50%;
+	max-height: auto;
+	/*display: inline-block;*/
+/*	margin: 30px;
+*/}
+.picControl {
+	position: relative;
+	max-width: 50%;
+	max-height: auto; 
+	/*display: inline-block;*/
+/*	margin: 30px;
+*/}
+
+h1 {
+	font-size: 55px;
+}
+.align {
+	vertical-align: top;
+}
 nav {
 	margin: 0 auto;
 }
 img {
 	max-width: 100%;
     height: auto;
-}
+}    
 li {
 	padding-right: 20px;
 	margin: 20px;
+	text-decoration: none;
 }
 a{
 	text-decoration: none;
+	color: #fff;
 }
 a:hover {
     text-decoration: underline;
